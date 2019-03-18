@@ -1,10 +1,7 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "Mark Dewey",
-  "classifications": [
-    "Web",
-    "API"
-  ],
+  "classifications": ["Web", "API"],
   "identity": "SDG.templates.Web.API",
   "name": "SDG Web API Template",
   "shortName": "sdg-api",
