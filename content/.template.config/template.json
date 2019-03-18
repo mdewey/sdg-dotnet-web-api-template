@@ -11,17 +11,8 @@
     "language": "C#",
     "type": "project"
   },
-  "symbols": {
-    "skipRestore": {
-      "type": "parameter",
-      "datatype": "bool",
-      "description": "If specified, skips the automatic restore of the project on create.",
-      "defaultValue": "false"
-    }
-  },
   "postActions": [
     {
-      "condition": "(!skipRestore)",
       "description": "Restore NuGet packages required by this project.",
       "manualInstructions": [
         {
