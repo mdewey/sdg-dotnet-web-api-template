@@ -5,10 +5,11 @@ This is the default template for a simple .NET Core Web API. This template has:
 - CORS Enabled
 - Swagger
 - Postgres & EF Core
+- Ready for Docker Deployment
 
 ## TODO:
 
-- Ready for Docker Deployment
+- Make this in into a template
 
 to use:
 
