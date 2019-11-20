@@ -8,9 +8,6 @@ namespace SampleApi.Models
   public partial class DatabaseContext : DbContext
   {
 
-    // Models go here
-    public DbSet<Thing> Things { get; set; }
-
     private string ConvertPostConnectionToConnectionString(string connection)
     {
       var _connection = connection.Replace("postgres://", String.Empty);
