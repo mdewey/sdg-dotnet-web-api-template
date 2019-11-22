@@ -2,9 +2,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>SDG.templates.Web.API</id>
-    <version>1.1.0</version>
+    <version>2.0.1</version>
     <description>
-      Creates a dummy app for use at Suncoast Developers Guild in Tampa Bay
+      Creates a dummy app for use at Suncoast Developers Guild in Tampa Bay FL
     </description>
     <authors>Mark Dewey</authors>
     <packageTypes>
@@ -13,9 +13,9 @@
   </metadata>
    <files>
     <file
-      src="content/**/*"
-      target="Content" />
+      src="SampleApi/**/*"
+      target="SampleApi" />
     <file
-    src="content/.gitignore"/>
+    src="SampleApi/.gitignore"/>
   </files>
 </package>
